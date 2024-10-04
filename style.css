@@ -612,7 +612,7 @@ header .home .item .item_box{
     overflow: hidden;
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 50%;
   }
   
   .blog img {
