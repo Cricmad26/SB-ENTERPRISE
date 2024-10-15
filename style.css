@@ -36,6 +36,7 @@ html{
   .grid {
     margin-top: 20px;
     display: grid;
+    
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
@@ -344,27 +345,31 @@ h5 {
 
 .blog .img {
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
-  height: 150%;
+  height: 100%;
   width: 100%;
 }
 
 .blog .img {
   width: 100%;
-  height: 200%;
+  height: 100%;
   transition: 0.5s;
 }
 
-.blog img:hover {
+/* .blog img:hover {
   transform: scale(1.1);
-}
+} */
 
 .blog .box label {
+  margin-left: -30px;
   font-size: 20px;
   color: grey;
 }
 
 .blog .box p {
+  margin-left: -30px;
   font-size: 15px;
   margin-top: 20px;
   margin-bottom: 70px;
